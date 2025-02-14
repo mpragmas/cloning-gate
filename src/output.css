@@ -713,17 +713,17 @@
   .h-\[3px\] {
     height: 3px;
   }
-  .h-\[100px\] {
-    height: 100px;
-  }
-  .h-\[500px\] {
-    height: 500px;
-  }
   .h-\[50px\] {
     height: 50px;
   }
   .h-\[5px\] {
     height: 5px;
+  }
+  .h-\[100px\] {
+    height: 100px;
+  }
+  .h-\[500px\] {
+    height: 500px;
   }
   .h-\[650px\] {
     height: 650px;
@@ -1044,6 +1044,10 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-b-1 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .border-b-2 {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
@@ -1120,6 +1124,21 @@
   }
   .bg-black {
     background-color: var(--color-black);
+  }
+  .bg-black\/20 {
+    background-color: color-mix(in oklab, var(--color-black) 20%, transparent);
+  }
+  .bg-black\/30 {
+    background-color: color-mix(in oklab, var(--color-black) 30%, transparent);
+  }
+  .bg-black\/50 {
+    background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
+  }
+  .bg-black\/60 {
+    background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
+  }
+  .bg-black\/70 {
+    background-color: color-mix(in oklab, var(--color-black) 70%, transparent);
   }
   .bg-gray-400 {
     background-color: var(--color-gray-400);
