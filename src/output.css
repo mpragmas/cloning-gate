@@ -524,6 +524,9 @@
   .relative {
     position: relative;
   }
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
   .mt-\[50px\] {
     margin-top: 50px;
   }
@@ -556,6 +559,21 @@
   }
   .h-\[100px\] {
     height: 100px;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
+  .h-\[650px\] {
+    height: 650px;
+  }
+  .h-\[700px\] {
+    height: 700px;
+  }
+  .h-\[1000px\] {
+    height: 1000px;
   }
   .w-\[20px\] {
     width: 20px;
@@ -622,6 +640,28 @@
       --tw-space-y-reverse: 0;
       margin-block-start: calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)));
+    }
+  }
+  .divide-x {
+    :where(& > :not(:last-child)) {
+      --tw-divide-x-reverse: 0;
+      border-inline-style: var(--tw-border-style);
+      border-inline-start-width: calc(1px * var(--tw-divide-x-reverse));
+      border-inline-end-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+    }
+  }
+  .divide-y {
+    :where(& > :not(:last-child)) {
+      --tw-divide-y-reverse: 0;
+      border-bottom-style: var(--tw-border-style);
+      border-top-style: var(--tw-border-style);
+      border-top-width: calc(1px * var(--tw-divide-y-reverse));
+      border-bottom-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    }
+  }
+  .divide-gray-300 {
+    :where(& > :not(:last-child)) {
+      border-color: var(--color-gray-300);
     }
   }
   .self-center {
@@ -698,6 +738,12 @@
   .bg-red-800 {
     background-color: var(--color-red-800);
   }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/crop_2x1\/public\/2025-01\/penn-center-innovation\.jpg\?h\=92c5d8ae\&itok\=3O1cAYdA\'\)\] {
+    background-image: url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA');
+  }
   .bg-\[url\(\'https\:\/\/www\.upenn\.edu\/themes\/custom\/penn_global\/assets\/img\/blue-pattern-bg\.png\'\)\] {
     background-image: url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png');
   }
@@ -736,6 +782,9 @@
   }
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
+  }
+  .pb-5 {
+    padding-bottom: calc(var(--spacing) * 5);
   }
   .text-center {
     text-align: center;
@@ -843,10 +892,20 @@
   inherits: false;
   initial-value: 0;
 }
+@property --tw-divide-x-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@property --tw-divide-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
 }
 @property --tw-font-weight {
   syntax: "*";
