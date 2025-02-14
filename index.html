@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <link href="src/output.css" rel="stylesheet" />
   </head>
   <body>
     <header
@@ -152,22 +152,33 @@
     </section>
 
     <section
-      class="flex bg-[url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA')]"
+      class="mt-11 flex bg-[url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA')] p-7 px-11 py-7 text-white"
     >
       <div
-        class="bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')]"
+        class="w-[45%] bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-6"
       >
-        <p>Campus & Community</p>
-        <p>Penn Center for Innovation celebrates 10 years</p>
-        <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
-        <p>
-          The University’s nexus for technology transfer supports researchers in
-          their innovative efforts, from CAR T to mRNA advancements that have
-          dramatically reshaped the world.
-        </p>
-        <p class="px-11 py-2">LEARN MORE</p>
+        <div class="flex flex-col space-y-11 border-1 border-blue-200 p-11">
+          <p class="text-center">Campus & Community</p>
+          <div class="flex flex-col self-center text-3xl hover:underline">
+            <p class="">Penn Center for Innovation celebrates</p>
+            <p class="self-center">10 years</p>
+          </div>
+          <p
+            class="w-[25px] self-center border-3 border-gray-500 text-center"
+          ></p>
+          <p class="self-center">
+            The University’s nexus for technology transfer supports researchers
+            in their innovative efforts, from CAR T to mRNA advancements that
+            have dramatically reshaped the world.
+          </p>
+          <p
+            class="inline-block self-center rounded-3xl border-[0.4px] border-gray-200 px-11 py-5 text-left font-bold transition-all hover:bg-white hover:text-red-700"
+          >
+            LEARN MORE
+          </p>
+        </div>
       </div>
-      <div></div>
+      <div class="w-[55%]"></div>
     </section>
 
     <script
