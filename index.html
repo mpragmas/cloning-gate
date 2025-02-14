@@ -9,7 +9,9 @@
     <header
       class="bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-3 text-white"
     >
-      <div class="space-y-3 border border-blue-800 px-32 py-11">
+      <div
+        class="space-y-3 border border-blue-800 px-6 py-2 sm:px-12 sm:py-5 lg:px-32 lg:py-11"
+      >
         <p class="text-xl font-bold underline">
           On Friday, February 14, 2025 the University will suspend normal
           operations for the Eagles victory parade
@@ -29,11 +31,20 @@
     >
       <nav>
         <div
-          class="border- flex h-[100px] items-center justify-between px-11 py-3"
+          class="border- flex h-[100px] items-center justify-between px-6 py-3 sm:px-11"
         >
-          <img src="img/UPenn-logo.svg" class="text-white" />
+          <p class="text-2xl md:hidden">
+            <ion-icon name="menu-outline"></ion-icon>
+          </p>
+          <img
+            src="img/UPenn-logo.svg"
+            class="w-[200px] text-white md:w-[300px]"
+          />
+          <p class="text-2xl md:hidden">
+            <ion-icon name="search-outline"></ion-icon>
+          </p>
 
-          <di v class="flex items-center justify-between gap-11">
+          <div class="hidden items-center justify-between gap-11 md:flex">
             <p class="text-2xl">
               <ion-icon name="search-outline"></ion-icon>
             </p>
@@ -46,11 +57,11 @@
             <button class="bg-red-800 px-4 py-2 text-white">
               GIVE TO PENN
             </button>
-          </di>
+          </div>
         </div>
         <p class="mt-3 border-b-2 border-gray-600"></p>
 
-        <div class="mt-2 flex justify-end gap-3 px-11">
+        <div class="mt-2 hidden justify-end gap-3 px-11 lg:flex">
           <p class="flex gap-3">
             <span> Academics </span>
             <span class="text-lg font-bold"
@@ -85,14 +96,14 @@
         </div>
       </nav>
 
-      <div class="mt-[200px]">
-        <div class="w-[40%] space-y-11">
+      <div class="mt-[100px] md:mt-[200px]">
+        <div class="space-y-11 px-11 md:w-[60%] lg:w-[50%]">
           <h1 class="text-xl font-bold">Health Sciences</h1>
           <p class="text-left text-4xl font-bold">
             How Penn is helping with bird flu research and disease surveillance
           </p>
         </div>
-        <div class="w-[60%]"></div>
+        <div class="md:w-[40%] lg:w-[50%]"></div>
       </div>
     </section>
 
@@ -107,9 +118,9 @@
         </div>
       </div>
 
-      <div class="mt-[50px] flex">
+      <div class="mt-[50px] flex flex-col md:flex-row">
         <div
-          class="flex w-[40%] flex-col space-y-3 border-x-1 border-gray-500 px-7 pb-3"
+          class="flex flex-col space-y-3 border-x-1 border-gray-500 px-7 pb-3 lg:w-[40%]"
         >
           <img src="img/many-peoples.jpg" />
           <h1 class="text-center text-red-600 hover:underline">
@@ -119,60 +130,64 @@
             Catherine and Anthony Clifton make transformational gift to
             accelerate patient care, research, and educati on at Penn Medicine
           </p>
-          <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
+          <p
+            class="hidden w-[25px] self-center border-3 border-gray-500 lg:flex"
+          ></p>
           <p class="mt-auto w-full self-center border border-gray-300"></p>
         </div>
 
-        <div class="w-[60%] pb-5">
-          <div class="grid grid-cols-2 divide-x divide-gray-300">
+        <div class="pb-5 lg:w-[60%]">
+          <div class="grid grid-cols-1 divide-x divide-gray-300 md:grid-cols-2">
             <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img src="img/many-peoples.jpg" />
+              <img
+                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/epstein-jon-teaser.jpg"
+              />
               <h1 class="text-center text-red-600 hover:underline">
                 Health Sciences
               </h1>
               <p class="px-6 text-blue-600 hover:underline">
-                Catherine and Anthony Clifton make transformational gift to
-                accelerate patient care, research, and educati on at Penn
-                Medicine
+                Jonathan A. Epstein named head of Perelman School of Medicine
+                and Penn Health System
               </p>
               <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
               <p class="mt-auto w-full self-center border border-gray-300"></p>
             </div>
             <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img src="img/many-peoples.jpg" />
+              <img
+                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/america-250-teaser-social-main.jpg?h=56d0ca2e&itok=ZJqmd08g"
+              />
               <h1 class="text-center text-red-600 hover:underline">
-                Health Sciences
+                Arts, Humanities, & Social Sciences
               </h1>
               <p class="px-6 text-blue-600 hover:underline">
-                Catherine and Anthony Clifton make transformational gift to
-                accelerate patient care, research, and educati on at Penn
-                Medicine
+                Penn prepares to mark America’s 250th birthday
               </p>
               <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
               <p class="mt-auto w-full self-center border border-gray-300"></p>
             </div>
             <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img src="img/many-peoples.jpg" />
+              <img
+                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/preservation-campus-teaser.jpg?h=c1e51c98&itok=3ZcGgQfb"
+              />
               <h1 class="text-center text-red-600 hover:underline">
-                Health Sciences
+                Arts, Humanities, & Social Sciences
               </h1>
               <p class="px-6 text-blue-600 hover:underline">
-                Catherine and Anthony Clifton make transformational gift to
-                accelerate patient care, research, and educati on at Penn
-                Medicine
+                A rare on-campus assignment for preservation students holds
+                ‘small revelations’
               </p>
               <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
               <p class="mt-auto w-full self-center border border-gray-300"></p>
             </div>
             <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img src="img/many-peoples.jpg" />
+              <img
+                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/chan-vanessa-teaser.jpg?h=10d202d3&itok=p7_scO6y"
+              />
               <h1 class="text-center text-red-600 hover:underline">
-                Health Sciences
+                Science & Technology
               </h1>
               <p class="px-6 text-blue-600 hover:underline">
-                Catherine and Anthony Clifton make transformational gift to
-                accelerate patient care, research, and educati on at Penn
-                Medicine
+                Vanessa Chan bridges the gap between innovation and the market
               </p>
               <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
               <p class="mt-auto w-full self-center border border-gray-300"></p>
@@ -187,12 +202,14 @@
     </section>
 
     <section
-      class="mt-11 flex bg-[url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA')] p-7 px-11 py-7 text-white"
+      class="mt-11 flex bg-[url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA')] p-3 px-6 py-3 text-white sm:p-7 sm:px-11 sm:py-7"
     >
       <div
-        class="w-[45%] bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-6"
+        class="w-full translate-y-1/2 bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-2 sm:p-6 lg:w-[45%]"
       >
-        <div class="flex flex-col space-y-11 border-1 border-blue-200 p-11">
+        <div
+          class="flex flex-col space-y-11 border-1 border-blue-200 p-5 sm:p-11"
+        >
           <p class="text-center">Campus & Community</p>
           <div class="flex flex-col self-center text-3xl hover:underline">
             <p class="">Penn Center for Innovation celebrates</p>
@@ -213,10 +230,10 @@
           </p>
         </div>
       </div>
-      <div class="w-[55%]"></div>
+      <div class="hidden lg:w-[55%]"></div>
     </section>
 
-    <div class="events p-8">
+    <div class="events mt-[300px] p-8 lg:mt-1">
       <h1 class="eb-garamond text-5xl font-light text-[#011F5B]">
         Upcoming Events
       </h1>
