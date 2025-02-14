@@ -1,31 +1,28 @@
-# Node modules
-node_modules
-npm-debug.log
-yarn.lock
-package-lock.json
-
-# Environment variables
-.env
-
 # Logs
-logs/
+
+node_modules/
+
+
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Build files
-dist/
-build/
-out/
 
-# Editor/IDE settings
-.vscode/
-.idea/
-*.swp
+dist
+dist-ssr
+*.local
 
-# MacOS
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-
-# Other
-coverage/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
