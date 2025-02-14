@@ -5,283 +5,339 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <header
-      class="bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-3 text-white"
-    >
-      <div
-        class="space-y-3 border border-blue-800 px-6 py-2 sm:px-12 sm:py-5 lg:px-32 lg:py-11"
+  <body class="relative">
+    <div class="absolute">
+      <header
+        class="bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-3 text-white"
       >
-        <p class="text-xl font-bold underline">
-          On Friday, February 14, 2025 the University will suspend normal
-          operations for the Eagles victory parade
-        </p>
-        <p class="text-lg font-semibold">
-          Normal operations will resume Monday, February 17, 2025
-        </p>
-      </div>
-    </header>
-
-    <section
-      style="
-        background-image: url(&quot;/img/many-birds.jpeg&quot;);
-        height: 650px;
-      "
-      class="pt-4 text-white"
-    >
-      <nav>
         <div
-          class="border- flex h-[100px] items-center justify-between px-6 py-3 sm:px-11"
+          class="space-y-3 border border-blue-800 px-6 py-2 sm:px-12 sm:py-5 lg:px-32 lg:py-11"
         >
-          <p class="text-2xl md:hidden">
-            <ion-icon name="menu-outline"></ion-icon>
+          <p class="text-xl font-bold underline">
+            On Friday, February 14, 2025 the University will suspend normal
+            operations for the Eagles victory parade
           </p>
-          <img
-            src="img/UPenn-logo.svg"
-            class="w-[200px] text-white md:w-[300px]"
-          />
-          <p class="text-2xl md:hidden">
-            <ion-icon name="search-outline"></ion-icon>
+          <p class="text-lg font-semibold">
+            Normal operations will resume Monday, February 17, 2025
           </p>
+        </div>
+      </header>
 
-          <div class="hidden items-center justify-between gap-11 md:flex">
-            <p class="text-2xl">
+      <section
+        style="
+          background-image: url(&quot;/img/many-birds.jpeg&quot;);
+          height: 650px;
+        "
+        class="pt-4 text-white"
+      >
+        <nav>
+          <div
+            class="border- flex h-[100px] items-center justify-between px-6 py-3 sm:px-11"
+          >
+            <p class="text-2xl md:hidden">
+              <ion-icon name="menu-outline"></ion-icon>
+            </p>
+            <img
+              src="img/UPenn-logo.svg"
+              class="w-[200px] text-white md:w-[300px]"
+            />
+            <p class="text-2xl md:hidden">
               <ion-icon name="search-outline"></ion-icon>
             </p>
 
-            <div class="justify-bet flex items-center gap-1">
-              <p>Resources</p>
-              <ion-icon name="chevron-down-outline"></ion-icon>
-            </div>
-
-            <button class="bg-red-800 px-4 py-2 text-white">
-              GIVE TO PENN
-            </button>
-          </div>
-        </div>
-        <p class="mt-3 border-b-2 border-gray-600"></p>
-
-        <div class="mt-2 hidden justify-end gap-3 px-11 lg:flex">
-          <p class="flex gap-3">
-            <span> Academics </span>
-            <span class="text-lg font-bold"
-              ><ion-icon name="chevron-down-outline"></ion-icon
-            ></span>
-          </p>
-          <span class="font-bold text-gray-500"> / </span>
-          <p>Admissions & Aid</p>
-          <span class="font-bold text-gray-500"> / </span>
-          <p>Athletics</p>
-          <span class="font-bold text-gray-500"> / </span>
-          <p class="flex gap-3">
-            <span> Research & Innovation </span>
-            <span class="text-lg font-bold"
-              ><ion-icon name="chevron-down-outline"></ion-icon
-            ></span>
-          </p>
-          <span class="font-bold text-gray-500"> / </span>
-          <p class="flex gap-3">
-            <span> LIFE AT PENN</span>
-            <span class="text-lg font-bold"
-              ><ion-icon name="chevron-down-outline"></ion-icon
-            ></span>
-          </p>
-          <span class="font-bold text-gray-500"> / </span>
-          <p class="flex gap-3">
-            <span> ABOUT</span>
-            <span class="text-lg font-bold"
-              ><ion-icon name="chevron-down-outline"></ion-icon
-            ></span>
-          </p>
-        </div>
-      </nav>
-
-      <div class="mt-[100px] md:mt-[200px]">
-        <div class="space-y-11 px-11 md:w-[60%] lg:w-[50%]">
-          <h1 class="text-xl font-bold">Health Sciences</h1>
-          <p class="text-left text-4xl font-bold">
-            How Penn is helping with bird flu research and disease surveillance
-          </p>
-        </div>
-        <div class="md:w-[40%] lg:w-[50%]"></div>
-      </div>
-    </section>
-
-    <section class="mt-[100px] px-7">
-      <div class="flex justify-between">
-        <h1 class="inline-block border-b-5 border-b-gray-600">News</h1>
-        <div class="flex gap-[100px] border-b border-gray-400">
-          <p>Topics</p>
-          <p>
-            <ion-icon name="caret-down-outline"></ion-icon>
-          </p>
-        </div>
-      </div>
-
-      <div class="mt-[50px] flex flex-col md:flex-row">
-        <div
-          class="flex flex-col space-y-3 border-x-1 border-gray-500 px-7 pb-3 lg:w-[40%]"
-        >
-          <img src="img/many-peoples.jpg" />
-          <h1 class="text-center text-red-600 hover:underline">
-            Health Sciences
-          </h1>
-          <p class="px-6 text-blue-600 hover:underline">
-            Catherine and Anthony Clifton make transformational gift to
-            accelerate patient care, research, and educati on at Penn Medicine
-          </p>
-          <p
-            class="hidden w-[25px] self-center border-3 border-gray-500 lg:flex"
-          ></p>
-          <p class="mt-auto w-full self-center border border-gray-300"></p>
-        </div>
-
-        <div class="pb-5 lg:w-[60%]">
-          <div class="grid grid-cols-1 divide-x divide-gray-300 md:grid-cols-2">
-            <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img
-                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/epstein-jon-teaser.jpg"
-              />
-              <h1 class="text-center text-red-600 hover:underline">
-                Health Sciences
-              </h1>
-              <p class="px-6 text-blue-600 hover:underline">
-                Jonathan A. Epstein named head of Perelman School of Medicine
-                and Penn Health System
+            <div class="hidden items-center justify-between gap-11 md:flex">
+              <p class="text-2xl">
+                <ion-icon name="search-outline"></ion-icon>
               </p>
-              <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
-              <p class="mt-auto w-full self-center border border-gray-300"></p>
-            </div>
-            <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img
-                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/america-250-teaser-social-main.jpg?h=56d0ca2e&itok=ZJqmd08g"
-              />
-              <h1 class="text-center text-red-600 hover:underline">
-                Arts, Humanities, & Social Sciences
-              </h1>
-              <p class="px-6 text-blue-600 hover:underline">
-                Penn prepares to mark America’s 250th birthday
-              </p>
-              <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
-              <p class="mt-auto w-full self-center border border-gray-300"></p>
-            </div>
-            <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img
-                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/preservation-campus-teaser.jpg?h=c1e51c98&itok=3ZcGgQfb"
-              />
-              <h1 class="text-center text-red-600 hover:underline">
-                Arts, Humanities, & Social Sciences
-              </h1>
-              <p class="px-6 text-blue-600 hover:underline">
-                A rare on-campus assignment for preservation students holds
-                ‘small revelations’
-              </p>
-              <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
-              <p class="mt-auto w-full self-center border border-gray-300"></p>
-            </div>
-            <div class="flex flex-col space-y-3 px-7 pb-3">
-              <img
-                src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/chan-vanessa-teaser.jpg?h=10d202d3&itok=p7_scO6y"
-              />
-              <h1 class="text-center text-red-600 hover:underline">
-                Science & Technology
-              </h1>
-              <p class="px-6 text-blue-600 hover:underline">
-                Vanessa Chan bridges the gap between innovation and the market
-              </p>
-              <p class="flex w-[25px] self-center border-3 border-gray-500"></p>
-              <p class="mt-auto w-full self-center border border-gray-300"></p>
+
+              <div class="justify-bet flex items-center gap-1">
+                <p>Resources</p>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </div>
+
+              <button class="bg-red-800 px-4 py-2 text-white">
+                GIVE TO PENN
+              </button>
             </div>
           </div>
+          <p class="mt-3 border-b-2 border-gray-600"></p>
 
-          <p class="mt-7 text-center text-red-600 hover:underline">
-            MORE NEWS VIA PENN TODAY
-          </p>
+          <div class="mt-2 hidden justify-end gap-3 px-11 lg:flex">
+            <p class="flex gap-3">
+              <span> Academics </span>
+              <span class="text-lg font-bold"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
+            </p>
+            <span class="font-bold text-gray-500"> / </span>
+            <p>Admissions & Aid</p>
+            <span class="font-bold text-gray-500"> / </span>
+            <p>Athletics</p>
+            <span class="font-bold text-gray-500"> / </span>
+            <p class="flex gap-3">
+              <span> Research & Innovation </span>
+              <span class="text-lg font-bold"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
+            </p>
+            <span class="font-bold text-gray-500"> / </span>
+            <p class="flex gap-3">
+              <span> LIFE AT PENN</span>
+              <span class="text-lg font-bold"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
+            </p>
+            <span class="font-bold text-gray-500"> / </span>
+            <p class="flex gap-3">
+              <span> ABOUT</span>
+              <span class="text-lg font-bold"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
+            </p>
+          </div>
+        </nav>
+
+        <div class="mt-[100px] md:mt-[200px]">
+          <div class="space-y-11 px-11 md:w-[60%] lg:w-[50%]">
+            <h1 class="text-xl font-bold">Health Sciences</h1>
+            <p class="text-left text-4xl font-bold">
+              How Penn is helping with bird flu research and disease
+              surveillance
+            </p>
+          </div>
+          <div class="md:w-[40%] lg:w-[50%]"></div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section
-      class="mt-11 flex bg-[url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA')] p-3 px-6 py-3 text-white sm:p-7 sm:px-11 sm:py-7"
-    >
-      <div
-        class="w-full translate-y-1/2 bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-2 sm:p-6 lg:w-[45%] lg:translate-y-0"
-      >
-        <div
-          class="flex flex-col space-y-11 border-1 border-blue-200 p-5 sm:p-11"
-        >
-          <p class="text-center">Campus & Community</p>
-          <div class="flex flex-col self-center text-3xl hover:underline">
-            <p class="">Penn Center for Innovation celebrates</p>
-            <p class="self-center">10 years</p>
-          </div>
-          <p
-            class="w-[25px] self-center border-3 border-gray-500 text-center"
-          ></p>
-          <p class="self-center">
-            The University’s nexus for technology transfer supports researchers
-            in their innovative efforts, from CAR T to mRNA advancements that
-            have dramatically reshaped the world.
-          </p>
-          <p
-            class="inline-block self-center rounded-3xl border-[0.4px] border-gray-200 px-11 py-5 text-left font-bold transition-all hover:bg-white hover:text-red-700"
-          >
-            LEARN MORE
-          </p>
-        </div>
-      </div>
-      <div class="hidden lg:w-[55%]"></div>
-    </section>
-
-    <div class="events mt-[300px] p-8 lg:mt-1">
-      <h1 class="eb-garamond text-5xl font-light text-[#011F5B]">
-        Upcoming Events
-      </h1>
-      <div class="mt-4 h-[5px] w-[40px] bg-[#9BA5BE]"></div>
-
-      <div class="mt-12 flex w-full gap-11 sm:justify-between sm:gap-0">
-        <div class="relative w-[50%] md:w-[30%]">
-          <div>
-            <img
-              src="https://penntoday.upenn.edu/sites/default/files/styles/event_large/public/2022-12/grad-center-locust-walk.jpg?h=56d0ca2e&itok=JXdJNEtf"
-              alt=""
-            />
-          </div>
-
-          <div class="absolute top-[5%] left-[75%]">
-            <div
-              class="w-[50px] border-2 border-transparent bg-[#990001] text-center text-white"
-            >
-              FEB
-            </div>
-            <div
-              class="h-[50px] w-[50px] border-2 border-transparent bg-white text-center text-2xl shadow-2xl"
-            >
-              18
-            </div>
-          </div>
-          <div class="mt-4">
-            <h1
-              class="eb-garamond text-[22px] font-light text-[#011F5B] hover:underline"
-            >
-              Managing Presentation Anxiety
-            </h1>
-            <p class="leading-7 font-light text-[#011F5B]">
-              Communication Within the Curriculum Associate Director Sue Weber
-              offers tips and tricks to control anxiety during public speaking.
-              A Penn graduate student ID is required.
+      <section class="mt-[100px] px-7">
+        <div class="flex justify-between">
+          <h1 class="inline-block border-b-5 border-b-gray-600">News</h1>
+          <div class="flex gap-[100px] border-b border-gray-400">
+            <p>Topics</p>
+            <p>
+              <ion-icon name="caret-down-outline"></ion-icon>
             </p>
           </div>
         </div>
 
-        <div
-          class="h-[500px] w-[10px] border-r-1 border-gray-400 bg-gradient-to-b"
-        ></div>
+        <div class="mt-[50px] flex flex-col md:flex-row">
+          <div
+            class="flex flex-col space-y-3 border-x-1 border-gray-500 px-7 pb-3 lg:w-[40%]"
+          >
+            <img src="img/many-peoples.jpg" />
+            <h1 class="text-center text-red-600 hover:underline">
+              Health Sciences
+            </h1>
+            <p class="px-6 text-blue-600 hover:underline">
+              Catherine and Anthony Clifton make transformational gift to
+              accelerate patient care, research, and educati on at Penn Medicine
+            </p>
+            <p
+              class="hidden w-[25px] self-center border-3 border-gray-500 lg:flex"
+            ></p>
+            <p class="mt-auto w-full self-center border border-gray-300"></p>
+          </div>
 
-        <div class="flex w-[50%] gap-4 md:w-[30%]">
-          <div class="relative border-2 border-transparent bg-[#F3F3F4] p-4">
+          <div class="pb-5 lg:w-[60%]">
+            <div
+              class="grid grid-cols-1 divide-x divide-gray-300 md:grid-cols-2"
+            >
+              <div class="flex flex-col space-y-3 px-7 pb-3">
+                <img
+                  src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/epstein-jon-teaser.jpg"
+                />
+                <h1 class="text-center text-red-600 hover:underline">
+                  Health Sciences
+                </h1>
+                <p class="px-6 text-blue-600 hover:underline">
+                  Jonathan A. Epstein named head of Perelman School of Medicine
+                  and Penn Health System
+                </p>
+                <p
+                  class="flex w-[25px] self-center border-3 border-gray-500"
+                ></p>
+                <p
+                  class="mt-auto w-full self-center border border-gray-300"
+                ></p>
+              </div>
+              <div class="flex flex-col space-y-3 px-7 pb-3">
+                <img
+                  src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/america-250-teaser-social-main.jpg?h=56d0ca2e&itok=ZJqmd08g"
+                />
+                <h1 class="text-center text-red-600 hover:underline">
+                  Arts, Humanities, & Social Sciences
+                </h1>
+                <p class="px-6 text-blue-600 hover:underline">
+                  Penn prepares to mark America’s 250th birthday
+                </p>
+                <p
+                  class="flex w-[25px] self-center border-3 border-gray-500"
+                ></p>
+                <p
+                  class="mt-auto w-full self-center border border-gray-300"
+                ></p>
+              </div>
+              <div class="flex flex-col space-y-3 px-7 pb-3">
+                <img
+                  src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/preservation-campus-teaser.jpg?h=c1e51c98&itok=3ZcGgQfb"
+                />
+                <h1 class="text-center text-red-600 hover:underline">
+                  Arts, Humanities, & Social Sciences
+                </h1>
+                <p class="px-6 text-blue-600 hover:underline">
+                  A rare on-campus assignment for preservation students holds
+                  ‘small revelations’
+                </p>
+                <p
+                  class="flex w-[25px] self-center border-3 border-gray-500"
+                ></p>
+                <p
+                  class="mt-auto w-full self-center border border-gray-300"
+                ></p>
+              </div>
+              <div class="flex flex-col space-y-3 px-7 pb-3">
+                <img
+                  src="https://penntoday.upenn.edu/sites/default/files/styles/teaser/public/2025-02/chan-vanessa-teaser.jpg?h=10d202d3&itok=p7_scO6y"
+                />
+                <h1 class="text-center text-red-600 hover:underline">
+                  Science & Technology
+                </h1>
+                <p class="px-6 text-blue-600 hover:underline">
+                  Vanessa Chan bridges the gap between innovation and the market
+                </p>
+                <p
+                  class="flex w-[25px] self-center border-3 border-gray-500"
+                ></p>
+                <p
+                  class="mt-auto w-full self-center border border-gray-300"
+                ></p>
+              </div>
+            </div>
+
+            <p class="mt-7 text-center text-red-600 hover:underline">
+              MORE NEWS VIA PENN TODAY
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="mt-11 flex bg-[url('https://www.upenn.edu/sites/default/files/styles/crop_2x1/public/2025-01/penn-center-innovation.jpg?h=92c5d8ae&itok=3O1cAYdA')] p-3 px-6 py-3 text-white sm:p-7 sm:px-11 sm:py-7"
+      >
+        <div
+          class="w-full translate-y-1/2 bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png')] p-2 sm:p-6 lg:w-[45%] lg:translate-y-0"
+        >
+          <div
+            class="flex flex-col space-y-11 border-1 border-blue-200 p-5 sm:p-11"
+          >
+            <p class="text-center">Campus & Community</p>
+            <div class="flex flex-col self-center text-3xl hover:underline">
+              <p class="">Penn Center for Innovation celebrates</p>
+              <p class="self-center">10 years</p>
+            </div>
+            <p
+              class="w-[25px] self-center border-3 border-gray-500 text-center"
+            ></p>
+            <p class="self-center">
+              The University’s nexus for technology transfer supports
+              researchers in their innovative efforts, from CAR T to mRNA
+              advancements that have dramatically reshaped the world.
+            </p>
+            <p
+              class="inline-block self-center rounded-3xl border-[0.4px] border-gray-200 px-11 py-5 text-left font-bold transition-all hover:bg-white hover:text-red-700"
+            >
+              LEARN MORE
+            </p>
+          </div>
+        </div>
+        <div class="hidden lg:w-[55%]"></div>
+      </section>
+
+      <div class="events mt-[300px] p-8 lg:mt-1">
+        <h1 class="eb-garamond text-5xl font-light text-[#011F5B]">
+          Upcoming Events
+        </h1>
+        <div class="mt-4 h-[5px] w-[40px] bg-[#9BA5BE]"></div>
+
+        <div class="mt-12 flex w-full gap-11 sm:justify-between sm:gap-0">
+          <div class="relative w-[50%] md:w-[30%]">
+            <div>
+              <img
+                src="https://penntoday.upenn.edu/sites/default/files/styles/event_large/public/2022-12/grad-center-locust-walk.jpg?h=56d0ca2e&itok=JXdJNEtf"
+                alt=""
+              />
+            </div>
+
+            <div class="absolute top-[5%] left-[75%]">
+              <div
+                class="w-[50px] border-2 border-transparent bg-[#990001] text-center text-white"
+              >
+                FEB
+              </div>
+              <div
+                class="h-[50px] w-[50px] border-2 border-transparent bg-white text-center text-2xl shadow-2xl"
+              >
+                18
+              </div>
+            </div>
+            <div class="mt-4">
+              <h1
+                class="eb-garamond text-[22px] font-light text-[#011F5B] hover:underline"
+              >
+                Managing Presentation Anxiety
+              </h1>
+              <p class="leading-7 font-light text-[#011F5B]">
+                Communication Within the Curriculum Associate Director Sue Weber
+                offers tips and tricks to control anxiety during public
+                speaking. A Penn graduate student ID is required.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="h-[500px] w-[10px] border-r-1 border-gray-400 bg-gradient-to-b"
+          ></div>
+
+          <div class="flex w-[50%] gap-4 md:w-[30%]">
+            <div class="relative border-2 border-transparent bg-[#F3F3F4] p-4">
+              <div class="mt-18">
+                <p class="text-sm">SPECIAL EVENTS</p>
+                <div class="mt-2 h-[5px] w-[20px] bg-[#9BA5BE]"></div>
+              </div>
+
+              <div class="absolute top-[5%] left-[76%]">
+                <div
+                  class="w-[50px] border-2 border-transparent bg-[#990001] text-center text-white"
+                >
+                  FEB
+                </div>
+                <div
+                  class="h-[50px] w-[50px] border-2 border-transparent bg-white text-center text-2xl shadow-2xl"
+                >
+                  19
+                </div>
+              </div>
+
+              <p
+                class="eb-garamond mt-6 text-2xl font-light text-[#011F5B] hover:underline"
+              >
+                Historic Pennsylvania Hospital Tour
+              </p>
+              <p class="mt-2 leading-7 font-light text-[#011F5B]">
+                Holman Biotech Commons hosts a public tour of Pennsylvania
+                Hospital, the nation's first hospital. Attendees will tour the
+                Great Court, Historic Library, and Surgical Amphitheatre.
+                Registration is required.
+              </p>
+            </div>
+            <div class="h-[500px] w-[10px] border-r-1 border-gray-400"></div>
+          </div>
+
+          <div
+            class="relative hidden w-[30%] border-2 border-transparent bg-[#F3F3F4] p-4 sm:block"
+          >
             <div class="mt-18">
-              <p class="text-sm">SPECIAL EVENTS</p>
+              <p class="text-sm">TALKS</p>
               <div class="mt-2 h-[5px] w-[20px] bg-[#9BA5BE]"></div>
             </div>
 
@@ -294,408 +350,388 @@
               <div
                 class="h-[50px] w-[50px] border-2 border-transparent bg-white text-center text-2xl shadow-2xl"
               >
-                19
+                20
               </div>
             </div>
 
             <p
-              class="eb-garamond mt-6 text-2xl font-light text-[#011F5B] hover:underline"
+              class="eb-garamond mt-6 text-xl text-[22px] font-light text-[#011F5B] hover:underline"
             >
-              Historic Pennsylvania Hospital Tour
+              Jesse Rothstein
             </p>
             <p class="mt-2 leading-7 font-light text-[#011F5B]">
-              Holman Biotech Commons hosts a public tour of Pennsylvania
-              Hospital, the nation's first hospital. Attendees will tour the
-              Great Court, Historic Library, and Surgical Amphitheatre.
-              Registration is required.
+              Jesse Rothstein, a professor of public policy and economics at the
+              University of California, Berkeley, hosts a seminar about the role
+              of social safety net programs in college student success.
             </p>
           </div>
-          <div class="h-[500px] w-[10px] border-r-1 border-gray-400"></div>
         </div>
 
+        <div class="moreevents mt-18 text-sm text-[#011F5B] uppercase">
+          <p>more events via penn today</p>
+        </div>
+      </div>
+      <!-- Support section☑️ -->
+      <section class="flex w-full flex-col justify-around bg-white md:flex-row">
         <div
-          class="relative hidden w-[30%] border-2 border-transparent bg-[#F3F3F4] p-4 sm:block"
+          class="group my-20 w-full bg-[#f2f2f2] p-3 text-[#011f5b] md:w-[40vw]"
         >
-          <div class="mt-18">
-            <p class="text-sm">TALKS</p>
-            <div class="mt-2 h-[5px] w-[20px] bg-[#9BA5BE]"></div>
-          </div>
-
-          <div class="absolute top-[5%] left-[76%]">
-            <div
-              class="w-[50px] border-2 border-transparent bg-[#990001] text-center text-white"
-            >
-              FEB
-            </div>
-            <div
-              class="h-[50px] w-[50px] border-2 border-transparent bg-white text-center text-2xl shadow-2xl"
-            >
-              20
-            </div>
-          </div>
-
-          <p
-            class="eb-garamond mt-6 text-xl text-[22px] font-light text-[#011F5B] hover:underline"
-          >
-            Jesse Rothstein
-          </p>
-          <p class="mt-2 leading-7 font-light text-[#011F5B]">
-            Jesse Rothstein, a professor of public policy and economics at the
-            University of California, Berkeley, hosts a seminar about the role
-            of social safety net programs in college student success.
-          </p>
-        </div>
-      </div>
-
-      <div class="moreevents mt-18 text-sm text-[#011F5B] uppercase">
-        <p>more events via penn today</p>
-      </div>
-    </div>
-    <!-- Support section☑️ -->
-    <section class="flex w-full flex-col justify-around bg-white md:flex-row">
-      <div
-        class="group my-20 w-full bg-[#f2f2f2] p-3 text-[#011f5b] md:w-[40vw]"
-      >
-        <div class="mx-auto border border-gray-300 bg-[#f2f2f2] p-10">
-          <span
-            class="m-4 mx-auto flex w-10 border border-gray-400 text-center"
-          ></span>
-          <p
-            class="mt-12 mb-10 text-center text-[17px] leading-[28px] tracking-normal"
-          >
-            Your support ignites change locally and globally, transforming Penn
-            into a powerful engine that advances knowledge for society's
-            greatest good.
-          </p>
-          <button
-            class="m-6 mx-auto flex rounded-[32px] border border-gray-700 p-4 pl-4 text-[12px] leading-[15.6px] font-bold tracking-[1.8px] uppercase hover:bg-[#011f5b] hover:text-white"
-          >
-            support penn
-          </button>
-        </div>
-      </div>
-      <div class="peer my-20 w-full bg-[#011f5b] p-3 text-white md:w-[40vw]">
-        <div class="mx-auto border border-gray-700 bg-[#011f5b] p-10">
-          <h1
-            class="eb-garamond text-center text-[34px] leading-[42px] tracking-normal hover:underline"
-          >
-            Supporting Our Community
-          </h1>
-          <span
-            class="m-4 mx-auto flex w-10 border border-gray-400 text-center"
-          ></span>
-          <p
-            class="mt-12 mb-10 text-center text-[17px] leading-[28px] tracking-normal"
-          >
-            During these challenging times, Penn remains committed to supporting
-            students, faculty, and staff and to sharing information with our
-            larger community of alumni, parents, and friends.
-          </p>
-          <button
-            class="m-6 mx-auto flex rounded-[32px] border border-gray-700 p-4 pl-4 text-[12px] leading-[15.6px] font-bold tracking-[1.8px] uppercase hover:bg-white hover:text-[#990000]"
-          >
-            learn more
-          </button>
-        </div>
-      </div>
-    </section>
-    <section
-      id="prSection"
-      class="flex h-[700px] w-full flex-col items-center bg-[#011f5b] py-20"
-    >
-      <div id="PriorityHeaderSection" class="b w-fit">
-        <div id="prTextHeader" class="flex flex-col items-center gap-y-3">
-          <h3 class="font-eb text-5xl">Penn Priorities</h3>
-          <span class="h-[3px] w-[50px] bg-gray-400"></span>
-        </div>
-        <p class="font-roboto mx-auto mt-16 max-w-[50ch] text-center text-lg">
-          A look at a few of our big picture priorities that improve Penn as we
-          create knowledge to benefit the world.
-        </p>
-      </div>
-      <div
-        id="priorityTabs"
-        class="relative mt-16 grid min-h-[500px] w-full grid-cols-12 items-stretch overflow-hidden pb-20"
-      >
-        <div class="border-red relative col-start-1 col-end-3 border">
-          <img
-            src="https://www.upenn.edu/sites/default/files/styles/priority_card_3x2/public/2023-12/research-innovation-singh.jpg?h=75ed424a&itok=KSE1CWzS"
-            alt=""
-            class="h-full w-full object-cover"
-          />
-          <p
-            class="absolute top-1/2 left-11 rounded-[999px] border-2 border-gray-300 p-3 text-2xl font-extrabold text-gray-300"
-          >
-            <ion-icon name="chevron-back-outline"></ion-icon>
-          </p>
-        </div>
-        <div class="border-blue relative col-start-4 col-end-10 border">
-          <img src="img/penn2.avif" alt="" class="h-full w-full object-cover" />
-          <div
-            class="absolute bottom-2 left-2 flex min-w-[200px] flex-row items-stretch justify-center bg-white"
-          >
-            <span class="w-[70%] bg-white p-3 text-[1.6rem] text-[#011f5b]"
-              >In Principle & In Practise</span
-            >
+          <div class="mx-auto border border-gray-300 bg-[#f2f2f2] p-10">
             <span
-              class="flex w-[30%] items-center justify-center bg-red-900 text-5xl leading-[1.2] text-white"
-              >&rsaquo;</span
+              class="m-4 mx-auto flex w-10 border border-gray-400 text-center"
+            ></span>
+            <p
+              class="mt-12 mb-10 text-center text-[17px] leading-[28px] tracking-normal"
             >
+              Your support ignites change locally and globally, transforming
+              Penn into a powerful engine that advances knowledge for society's
+              greatest good.
+            </p>
+            <button
+              class="m-6 mx-auto flex rounded-[32px] border border-gray-700 p-4 pl-4 text-[12px] leading-[15.6px] font-bold tracking-[1.8px] uppercase hover:bg-[#011f5b] hover:text-white"
+            >
+              support penn
+            </button>
           </div>
         </div>
-        <div class="border-green relative col-start-11 col-end-13 border">
-          <img src="img/penn3.avif" alt="" class="h-full w-full object-cover" />
-          <p
-            class="absolute top-1/2 right-11 rounded-[999px] border-2 border-gray-300 p-3 text-2xl font-extrabold text-gray-300"
-          >
-            <ion-icon name="chevron-forward-outline"></ion-icon>
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- Stay Connected -->
-    <section class="stay mt-[200px] flex flex-col">
-      <h1 class="eb-garamond text-center text-5xl font-light text-[#09266A]">
-        Stay Connected
-      </h1>
-      <p
-        class="mt-4 w-[50px] self-center border-3 border-gray-500 text-center"
-      ></p>
-      <!-- <span class="mx-auto my-10 flex w-12 border-2 border-gray-300">gg</span> -->
-      <div class="mt-10 flex w-full flex-col justify-between p-8 sm:flex-row">
-        <img
-          src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/art-matters-fantine-sq.png?itok=Tgo2d8wN"
-          class="w-full sm:w-[50%] md:w-[32%]"
-          alt=""
-        />
-        <div
-          class="w-full border-2 bg-[#011F5A] p-6 font-light text-white sm:w-[50%] md:w-[32%]"
-        >
-          <p>
-            Scott Hensley of Penn Medicine says, “The worst thing we can do is
-            be flat-footed and unprepared, because this virus does represent a
-            true pandemic risk.” Faculty members from @PennMedicine and
-            @PennVetSchool are working on a new vaccine for the H5N1 virus. They
-            are studying how the virus is transmitted and assisting the state in
-            testing samples from birds and mammals.
-          </p>
-          <div class="mt-6 flex items-center gap-2">
-            <ion-icon
-              name="logo-twitter"
-              class="rounded-full border-2 bg-[#354B7C] p-2 text-gray-400"
-            ></ion-icon>
-            <p class="text-sm font-extralight">@PENN</p>
+        <div class="peer my-20 w-full bg-[#011f5b] p-3 text-white md:w-[40vw]">
+          <div class="mx-auto border border-gray-700 bg-[#011f5b] p-10">
+            <h1
+              class="eb-garamond text-center text-[34px] leading-[42px] tracking-normal hover:underline"
+            >
+              Supporting Our Community
+            </h1>
+            <span
+              class="m-4 mx-auto flex w-10 border border-gray-400 text-center"
+            ></span>
+            <p
+              class="mt-12 mb-10 text-center text-[17px] leading-[28px] tracking-normal"
+            >
+              During these challenging times, Penn remains committed to
+              supporting students, faculty, and staff and to sharing information
+              with our larger community of alumni, parents, and friends.
+            </p>
+            <button
+              class="m-6 mx-auto flex rounded-[32px] border border-gray-700 p-4 pl-4 text-[12px] leading-[15.6px] font-bold tracking-[1.8px] uppercase hover:bg-white hover:text-[#990000]"
+            >
+              learn more
+            </button>
           </div>
         </div>
-        <img
-          src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/penn_commonsspringsem2025-sq.png?itok=BL8NdBt7"
-          class="hidden md:block md:w-[32%]"
-          alt=""
-        />
-      </div>
-
-      <div
-        class="mx-auto mt-8 mb-24 flex items-center text-center text-lg text-[#09266A]"
+      </section>
+      <section
+        id="prSection"
+        class="flex h-[700px] w-full flex-col items-center bg-[#011f5b] py-20"
       >
-        <div
-          class="mx-auto grid grid-cols-3 items-center gap-10 md:grid-cols-6"
-        >
-          <img
-            src="/img/icon-instagram.svg"
-            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
-            alt=""
-          />
-
-          <img
-            src="/img/icon-facebook.svg"
-            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
-            alt=""
-          />
-          <img
-            src="/img/icon-twitter.svg"
-            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
-            alt=""
-          />
-          <img
-            src="/img/icon-flickr.svg"
-            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
-            alt=""
-          />
-          <img
-            src="img/icon-youtube.svg"
-            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
-            alt=""
-          />
-          <img
-            src="/img/icon-linkedin.svg"
-            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
-            alt=""
-          />
+        <div id="PriorityHeaderSection" class="b w-fit">
+          <div id="prTextHeader" class="flex flex-col items-center gap-y-3">
+            <h3 class="font-eb text-5xl">Penn Priorities</h3>
+            <span class="h-[3px] w-[50px] bg-gray-400"></span>
+          </div>
+          <p class="font-roboto mx-auto mt-16 max-w-[50ch] text-center text-lg">
+            A look at a few of our big picture priorities that improve Penn as
+            we create knowledge to benefit the world.
+          </p>
         </div>
-      </div>
-    </section>
-    <!-- Equal Opp -->
-    <section class="mt-11">
-      <div class="bg-[#011F5B] px-12 py-24 text-center text-[#ffffff]">
-        <h1
-          class="eb-garamond text-center text-[28px] leading-[35px] tracking-normal"
+        <div
+          id="priorityTabs"
+          class="relative mt-16 grid min-h-[500px] w-full grid-cols-12 items-stretch overflow-hidden pb-20"
         >
-          Equal Opportunity and Nondiscrimination at Penn
+          <div class="border-red relative col-start-1 col-end-3 border">
+            <img
+              src="https://www.upenn.edu/sites/default/files/styles/priority_card_3x2/public/2023-12/research-innovation-singh.jpg?h=75ed424a&itok=KSE1CWzS"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+            <p
+              class="absolute top-1/2 left-11 rounded-[999px] border-2 border-gray-300 p-3 text-2xl font-extrabold text-gray-300"
+            >
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </p>
+          </div>
+          <div class="border-blue relative col-start-4 col-end-10 border">
+            <img
+              src="img/penn2.avif"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+            <div
+              class="absolute bottom-2 left-2 flex min-w-[200px] flex-row items-stretch justify-center bg-white"
+            >
+              <span class="w-[70%] bg-white p-3 text-[1.6rem] text-[#011f5b]"
+                >In Principle & In Practise</span
+              >
+              <span
+                class="flex w-[30%] items-center justify-center bg-red-900 text-5xl leading-[1.2] text-white"
+                >&rsaquo;</span
+              >
+            </div>
+          </div>
+          <div class="border-green relative col-start-11 col-end-13 border">
+            <img
+              src="img/penn3.avif"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+            <p
+              class="absolute top-1/2 right-11 rounded-[999px] border-2 border-gray-300 p-3 text-2xl font-extrabold text-gray-300"
+            >
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Stay Connected -->
+      <section class="stay mt-[200px] flex flex-col">
+        <h1 class="eb-garamond text-center text-5xl font-light text-[#09266A]">
+          Stay Connected
         </h1>
-        <p class="mt-4 leading-8 font-light">
-          The University of Pennsylvania values diversity and seeks talented
-          students, faculty and staff with diverse backgrounds, experiences, and
-          perspectives. The University of Pennsylvania does not discriminate on
-          the basis of race, color, sex, sexual orientation, gender identity,
-          religion, creed, national or ethnic origin, citizenship status, age,
-          disability, veteran status or any other legally protected class status
-          in the administration of its admissions, financial aid, educational or
-          athletic programs, or other University-administered programs or in its
-          employment practices. Questions or complaints regarding this policy
-          should be directed to the Executive Director of the Office of
-          Affirmative Action and Equal Opportunity Programs, Franklin Building,
-          3451 Walnut Street, Suite 421, Philadelphia, PA 19104-6106; or (215)
-          898-6993 (Voice).
-        </p>
-        <button
-          class="mt-12 rounded-full border-2 border-gray-400 p-6 text-center text-[12px] leading-[15.6px] font-bold tracking-[1.8px] uppercase hover:border-none hover:bg-white hover:text-[#011F5B]"
+        <p
+          class="mt-4 w-[50px] self-center border-3 border-gray-500 text-center"
+        ></p>
+        <!-- <span class="mx-auto my-10 flex w-12 border-2 border-gray-300">gg</span> -->
+        <div class="mt-10 flex w-full flex-col justify-between p-8 sm:flex-row">
+          <img
+            src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/art-matters-fantine-sq.png?itok=Tgo2d8wN"
+            class="w-full sm:w-[50%] md:w-[32%]"
+            alt=""
+          />
+          <div
+            class="w-full border-2 bg-[#011F5A] p-6 font-light text-white sm:w-[50%] md:w-[32%]"
+          >
+            <p>
+              Scott Hensley of Penn Medicine says, “The worst thing we can do is
+              be flat-footed and unprepared, because this virus does represent a
+              true pandemic risk.” Faculty members from @PennMedicine and
+              @PennVetSchool are working on a new vaccine for the H5N1 virus.
+              They are studying how the virus is transmitted and assisting the
+              state in testing samples from birds and mammals.
+            </p>
+            <div class="mt-6 flex items-center gap-2">
+              <ion-icon
+                name="logo-twitter"
+                class="rounded-full border-2 bg-[#354B7C] p-2 text-gray-400"
+              ></ion-icon>
+              <p class="text-sm font-extralight">@PENN</p>
+            </div>
+          </div>
+          <img
+            src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/penn_commonsspringsem2025-sq.png?itok=BL8NdBt7"
+            class="hidden md:block md:w-[32%]"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="mx-auto mt-8 mb-24 flex items-center text-center text-lg text-[#09266A]"
         >
-          nondiscrimination statement
-        </button>
-      </div>
-    </section>
+          <div
+            class="mx-auto grid grid-cols-3 items-center gap-10 md:grid-cols-6"
+          >
+            <img
+              src="/img/icon-instagram.svg"
+              class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+              alt=""
+            />
 
-    <section id="footer">
-      <footer
-        class="bg-[#2F4673] bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img//footer-16.png')] bg-cover"
-      >
-        <div class="mx-auto max-w-7xl px-8 py-14">
-          <!-- Main Footer Content -->
-          <div class="mb-16 grid grid-cols-1 gap-x-24 gap-y-12 md:grid-cols-3">
-            <!-- Left Column -->
+            <img
+              src="/img/icon-facebook.svg"
+              class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+              alt=""
+            />
+            <img
+              src="/img/icon-twitter.svg"
+              class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+              alt=""
+            />
+            <img
+              src="/img/icon-flickr.svg"
+              class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+              alt=""
+            />
+            <img
+              src="img/icon-youtube.svg"
+              class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+              alt=""
+            />
+            <img
+              src="/img/icon-linkedin.svg"
+              class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Equal Opp -->
+      <section class="mt-11">
+        <div class="bg-[#011F5B] px-12 py-24 text-center text-[#ffffff]">
+          <h1
+            class="eb-garamond text-center text-[28px] leading-[35px] tracking-normal"
+          >
+            Equal Opportunity and Nondiscrimination at Penn
+          </h1>
+          <p class="mt-4 leading-8 font-light">
+            The University of Pennsylvania values diversity and seeks talented
+            students, faculty and staff with diverse backgrounds, experiences,
+            and perspectives. The University of Pennsylvania does not
+            discriminate on the basis of race, color, sex, sexual orientation,
+            gender identity, religion, creed, national or ethnic origin,
+            citizenship status, age, disability, veteran status or any other
+            legally protected class status in the administration of its
+            admissions, financial aid, educational or athletic programs, or
+            other University-administered programs or in its employment
+            practices. Questions or complaints regarding this policy should be
+            directed to the Executive Director of the Office of Affirmative
+            Action and Equal Opportunity Programs, Franklin Building, 3451
+            Walnut Street, Suite 421, Philadelphia, PA 19104-6106; or (215)
+            898-6993 (Voice).
+          </p>
+          <button
+            class="mt-12 rounded-full border-2 border-gray-400 p-6 text-center text-[12px] leading-[15.6px] font-bold tracking-[1.8px] uppercase hover:border-none hover:bg-white hover:text-[#011F5B]"
+          >
+            nondiscrimination statement
+          </button>
+        </div>
+      </section>
 
-            <div>
-              <img
-                src="https://www.upenn.edu/themes/custom/penn_starter/assets/img/UPenn-logo.svg"
-                alt="University of Pennsylvania"
-                class="h-16 w-auto"
-              />
+      <section id="footer">
+        <footer
+          class="bg-[#2F4673] bg-[url('https://www.upenn.edu/themes/custom/penn_global/assets/img//footer-16.png')] bg-cover"
+        >
+          <div class="mx-auto max-w-7xl px-8 py-14">
+            <!-- Main Footer Content -->
+            <div
+              class="mb-16 grid grid-cols-1 gap-x-24 gap-y-12 md:grid-cols-3"
+            >
+              <!-- Left Column -->
 
-              <div class="my-8">
-                <p class="text-white">Philadelphia, PA 19104</p>
-                <p class="text-white">
-                  Telephone: <span class="text-[#82AFD3]">(215) 898-5000</span>
-                </p>
+              <div>
+                <img
+                  src="https://www.upenn.edu/themes/custom/penn_starter/assets/img/UPenn-logo.svg"
+                  alt="University of Pennsylvania"
+                  class="h-16 w-auto"
+                />
+
+                <div class="my-8">
+                  <p class="text-white">Philadelphia, PA 19104</p>
+                  <p class="text-white">
+                    Telephone:
+                    <span class="text-[#82AFD3]">(215) 898-5000</span>
+                  </p>
+                </div>
+
+                <div class="space-y-4">
+                  <p class="font-semibold text-white">CONTACT US</p>
+                  <div class="space-y-2">
+                    <p class="cursor-pointer text-white hover:underline">
+                      MAPS
+                    </p>
+                    <p class="cursor-pointer text-white hover:underline">
+                      PARKING
+                    </p>
+                  </div>
+                </div>
               </div>
 
-              <div class="space-y-4">
-                <p class="font-semibold text-white">CONTACT US</p>
-                <div class="space-y-2">
-                  <p class="cursor-pointer text-white hover:underline">MAPS</p>
+              <!-- Navigate Column -->
+              <div>
+                <p class="mb-6 font-semibold text-white">Navigate</p>
+                <div class="space-y-3">
                   <p class="cursor-pointer text-white hover:underline">
-                    PARKING
+                    ALUMNI
+                  </p>
+                  <p class="cursor-pointer text-white hover:underline">
+                    ATHLETICS
+                  </p>
+                  <p class="cursor-pointer text-white hover:underline">
+                    DIVERSITY
+                  </p>
+                  <p class="cursor-pointer text-white hover:underline">
+                    HEALTH CARE
+                  </p>
+                  <p class="cursor-pointer text-white hover:underline">
+                    LIBRARIES
+                  </p>
+                  <p class="cursor-pointer text-white hover:underline">
+                    ONLINE LEARNING
+                  </p>
+                  <p class="cursor-pointer text-white hover:underline">
+                    PENN GLOBAL
                   </p>
                 </div>
               </div>
-            </div>
 
-            <!-- Navigate Column -->
-            <div>
-              <p class="mb-6 font-semibold text-white">Navigate</p>
-              <div class="space-y-3">
-                <p class="cursor-pointer text-white hover:underline">ALUMNI</p>
-                <p class="cursor-pointer text-white hover:underline">
-                  ATHLETICS
+              <!-- Heritage Column -->
+              <div class="font-bold">
+                <p class="mb-6 text-2xl text-white">Penn's Heritage</p>
+                <p class="mb-8 text-sm leading-relaxed text-white">
+                  As America's first university, Penn has a history that dates
+                  back to 1740 and shares many ties with the colonial city of
+                  Philadelphia and the birth of our nation.
                 </p>
-                <p class="cursor-pointer text-white hover:underline">
-                  DIVERSITY
-                </p>
-                <p class="cursor-pointer text-white hover:underline">
-                  HEALTH CARE
-                </p>
-                <p class="cursor-pointer text-white hover:underline">
-                  LIBRARIES
-                </p>
-                <p class="cursor-pointer text-white hover:underline">
-                  ONLINE LEARNING
-                </p>
-                <p class="cursor-pointer text-white hover:underline">
-                  PENN GLOBAL
-                </p>
-              </div>
-            </div>
-
-            <!-- Heritage Column -->
-            <div class="font-bold">
-              <p class="mb-6 text-2xl text-white">Penn's Heritage</p>
-              <p class="mb-8 text-sm leading-relaxed text-white">
-                As America's first university, Penn has a history that dates
-                back to 1740 and shares many ties with the colonial city of
-                Philadelphia and the birth of our nation.
-              </p>
-              <button
-                class="w-48 rounded-full border border-gray-500 px-8 py-3 text-sm font-semibold text-white uppercase transition-colors hover:bg-white hover:text-[#2F4673]"
-              >
-                Our History
-              </button>
-            </div>
-          </div>
-
-          <!-- Bottom Links -->
-          <div class="flex gap-0 py-6 text-white">
-            <div
-              class="container mx-auto flex flex-row items-center justify-between px-4"
-            >
-              <!-- Back to top button -->
-              <div class="mb-6 flex items-center space-x-2">
                 <button
-                  class="flex items-center justify-center rounded-md border border-white px-6 py-3 hover:bg-gray-400"
+                  class="w-48 rounded-full border border-gray-500 px-8 py-3 text-sm font-semibold text-white uppercase transition-colors hover:bg-white hover:text-[#2F4673]"
                 >
-                  <span class="text-lg text-white">↑</span>
+                  Our History
                 </button>
-                <span class="text-sm font-semibold tracking-widest uppercase"
-                  >Back to top</span
-                >
               </div>
+            </div>
 
-              <!-- Footer links -->
+            <!-- Bottom Links -->
+            <div class="flex gap-0 py-6 text-white">
               <div
-                class="space-y-2 text-center text-sm font-bold tracking-wider"
+                class="container mx-auto flex flex-row items-center justify-between px-4"
               >
-                <div class="flex justify-center space-x-4">
-                  <a href="#" class="hover:underline">Disclaimer</a>
-                  <span>|</span>
-                  <a href="#" class="hover:underline">Emergency Services</a>
-                  <span>|</span>
-                  <a href="#" class="hover:underline">Nondiscrimination</a>
-                  <span>|</span>
-                  <a href="#" class="hover:underline">Privacy Policy</a>
+                <!-- Back to top button -->
+                <div class="mb-6 flex items-center space-x-2">
+                  <button
+                    class="flex items-center justify-center rounded-md border border-white px-6 py-3 hover:bg-gray-400"
+                  >
+                    <span class="text-lg text-white">↑</span>
+                  </button>
+                  <span class="text-sm font-semibold tracking-widest uppercase"
+                    >Back to top</span
+                  >
                 </div>
-                <div class="flex justify-center space-x-4">
-                  <a href="#" class="hover:underline"
-                    >Report Accessibility Issues and Get Help</a
-                  >
-                  <span>|</span>
-                  <a href="#" class="hover:underline"
-                    >Report Copyright Infringement</a
-                  >
+
+                <!-- Footer links -->
+                <div
+                  class="space-y-2 text-center text-sm font-bold tracking-wider"
+                >
+                  <div class="flex justify-center space-x-4">
+                    <a href="#" class="hover:underline">Disclaimer</a>
+                    <span>|</span>
+                    <a href="#" class="hover:underline">Emergency Services</a>
+                    <span>|</span>
+                    <a href="#" class="hover:underline">Nondiscrimination</a>
+                    <span>|</span>
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                  </div>
+                  <div class="flex justify-center space-x-4">
+                    <a href="#" class="hover:underline"
+                      >Report Accessibility Issues and Get Help</a
+                    >
+                    <span>|</span>
+                    <a href="#" class="hover:underline"
+                      >Report Copyright Infringement</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- <div class="mt-8 text-left">
+            <!-- <div class="mt-8 text-left">
             <a
               href="https://www.upenn.edu"
               class="text-sm text-white hover:underline"
             >
-              http
-            </a>
-          </div> -->
-        </div>
-      </footer>
-    </section>
-
+            http
+          </a>
+        </div> -->
+          </div>
+        </footer>
+      </section>
+    </div>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
