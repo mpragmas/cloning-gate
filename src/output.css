@@ -530,8 +530,26 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
+  .top-1\/2 {
+    top: calc(1/2 * 100%);
+  }
   .top-\[5\%\] {
     top: 5%;
+  }
+  .right-11 {
+    right: calc(var(--spacing) * 11);
+  }
+  .bottom-2 {
+    bottom: calc(var(--spacing) * 2);
+  }
+  .left-2 {
+    left: calc(var(--spacing) * 2);
+  }
+  .left-11 {
+    left: calc(var(--spacing) * 11);
   }
   .left-\[75\%\] {
     left: 75%;
@@ -541,6 +559,24 @@
   }
   .z-10 {
     z-index: 10;
+  }
+  .col-start-1 {
+    grid-column-start: 1;
+  }
+  .col-start-4 {
+    grid-column-start: 4;
+  }
+  .col-start-11 {
+    grid-column-start: 11;
+  }
+  .col-end-3 {
+    grid-column-end: 3;
+  }
+  .col-end-10 {
+    grid-column-end: 10;
+  }
+  .col-end-13 {
+    grid-column-end: 13;
   }
   .container {
     width: 100%;
@@ -604,6 +640,9 @@
   }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
   }
   .mt-18 {
     margin-top: calc(var(--spacing) * 18);
@@ -671,8 +710,8 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
-  .h-\[50px\] {
-    height: 50px;
+  .h-\[3px\] {
+    height: 3px;
   }
   .h-\[100px\] {
     height: 100px;
@@ -680,11 +719,23 @@
   .h-\[500px\] {
     height: 500px;
   }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[5px\] {
     height: 5px;
   }
   .h-\[650px\] {
     height: 650px;
+  }
+  .h-\[700px\] {
+    height: 700px;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .min-h-\[500px\] {
+    min-height: 500px;
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -752,11 +803,20 @@
   .w-auto {
     width: auto;
   }
+  .w-fit {
+    width: fit-content;
+  }
   .w-full {
     width: 100%;
   }
   .max-w-7xl {
     max-width: var(--container-7xl);
+  }
+  .max-w-\[50ch\] {
+    max-width: 50ch;
+  }
+  .min-w-\[200px\] {
+    min-width: 200px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -797,6 +857,9 @@
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+  .grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -805,6 +868,9 @@
   }
   .items-center {
     align-items: center;
+  }
+  .items-stretch {
+    align-items: stretch;
   }
   .justify-around {
     justify-content: space-around;
@@ -883,6 +949,9 @@
       margin-block-end: calc(calc(var(--spacing) * 11) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
+  .gap-y-3 {
+    row-gap: calc(var(--spacing) * 3);
+  }
   .gap-y-12 {
     row-gap: calc(var(--spacing) * 12);
   }
@@ -916,11 +985,17 @@
   .self-center {
     align-self: center;
   }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
   .rounded-\[32px\] {
     border-radius: 32px;
+  }
+  .rounded-\[999px\] {
+    border-radius: 999px;
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
@@ -973,6 +1048,9 @@
   }
   .border-blue-800 {
     border-color: var(--color-blue-800);
+  }
+  .border-gray-100 {
+    border-color: var(--color-gray-100);
   }
   .border-gray-200 {
     border-color: var(--color-gray-200);
@@ -1034,11 +1112,17 @@
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-gray-400 {
+    background-color: var(--color-gray-400);
+  }
   .bg-red-400 {
     background-color: var(--color-red-400);
   }
   .bg-red-800 {
     background-color: var(--color-red-800);
+  }
+  .bg-red-900 {
+    background-color: var(--color-red-900);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -1071,6 +1155,9 @@
   .bg-\[url\(\'img\/many-birds\.jpeg\'\)\] {
     background-image: url('img/many-birds.jpeg');
   }
+  .bg-\[url\(\/public\/imgs\/blueBg\.png\)\] {
+    background-image: url(/public/imgs/blueBg.png);
+  }
   .bg-\[url\(https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/crop_5x3\/public\/2025-02\/avian-bird-flu\.jpg\?h\=d0d32c2c\&amp\;itok\=MaefnWJg\)\] {
     background-image: url(https://www.upenn.edu/sites/default/files/styles/crop_5x3/public/2025-02/avian-bird-flu.jpg?h=d0d32c2c&amp;itok=MaefnWJg);
   }
@@ -1085,6 +1172,9 @@
   }
   .bg-center {
     background-position: center;
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
@@ -1155,6 +1245,9 @@
   .py-14 {
     padding-block: calc(var(--spacing) * 14);
   }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
   }
@@ -1166,6 +1259,9 @@
   }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
+  }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
   }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
@@ -1208,6 +1304,9 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+  .text-\[1\.6rem\] {
+    font-size: 1.6rem;
+  }
   .text-\[12px\] {
     font-size: 12px;
   }
@@ -1230,6 +1329,10 @@
   .leading-8 {
     --tw-leading: calc(var(--spacing) * 8);
     line-height: calc(var(--spacing) * 8);
+  }
+  .leading-\[1\.2\] {
+    --tw-leading: 1.2;
+    line-height: 1.2;
   }
   .leading-\[15\.6px\] {
     --tw-leading: 15.6px;
@@ -1304,6 +1407,9 @@
   }
   .text-blue-600 {
     color: var(--color-blue-600);
+  }
+  .text-gray-300 {
+    color: var(--color-gray-300);
   }
   .text-gray-400 {
     color: var(--color-gray-400);
