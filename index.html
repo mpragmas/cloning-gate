@@ -20,12 +20,18 @@
       </div>
     </header>
 
-    <section class="h-[650px] bg-[url('img/bird.avif')] text-white">
+    <section
+      style="
+        background-image: url(&quot;/img/many-birds.jpeg&quot;);
+        height: 650px;
+      "
+      class="pt-4 text-white"
+    >
       <nav>
         <div
-          class="border- flex h-[100px] items-center justify-between border-b-white px-11 py-3"
+          class="border- flex h-[100px] items-center justify-between px-11 py-3"
         >
-          <img src="img/logo.png.svg" />
+          <img src="img/UPenn-logo.svg" class="text-white" />
 
           <di v class="flex items-center justify-between gap-11">
             <p class="text-2xl">
@@ -42,22 +48,51 @@
             </button>
           </di>
         </div>
+        <p class="mt-3 border-b-2 border-gray-600"></p>
 
-        <div class="flex justify-end gap-5 px-11">
-          <p>Academics</p>
+        <div class="mt-2 flex justify-end gap-3 px-11">
+          <p class="flex gap-3">
+            <span> Academics </span>
+            <span class="text-lg font-bold"
+              ><ion-icon name="chevron-down-outline"></ion-icon
+            ></span>
+          </p>
+          <span class="font-bold text-gray-500"> / </span>
           <p>Admissions & Aid</p>
+          <span class="font-bold text-gray-500"> / </span>
           <p>Athletics</p>
-          <p>Research & Innovation</p>
-          <p>Life at Penn</p>
-          <p>About</p>
+          <span class="font-bold text-gray-500"> / </span>
+          <p class="flex gap-3">
+            <span> Research & Innovation </span>
+            <span class="text-lg font-bold"
+              ><ion-icon name="chevron-down-outline"></ion-icon
+            ></span>
+          </p>
+          <span class="font-bold text-gray-500"> / </span>
+          <p class="flex gap-3">
+            <span> LIFE AT PENN</span>
+            <span class="text-lg font-bold"
+              ><ion-icon name="chevron-down-outline"></ion-icon
+            ></span>
+          </p>
+          <span class="font-bold text-gray-500"> / </span>
+          <p class="flex gap-3">
+            <span> ABOUT</span>
+            <span class="text-lg font-bold"
+              ><ion-icon name="chevron-down-outline"></ion-icon
+            ></span>
+          </p>
         </div>
       </nav>
 
-      <div class="mt-[100px]">
-        <h1>Health Sciences</h1>
-        <p>
-          How Penn is helping with bird flu research and disease surveillance
-        </p>
+      <div class="mt-[200px]">
+        <div class="w-[40%] space-y-11">
+          <h1 class="text-xl font-bold">Health Sciences</h1>
+          <p class="text-left text-4xl font-bold">
+            How Penn is helping with bird flu research and disease surveillance
+          </p>
+        </div>
+        <div class="w-[60%]"></div>
       </div>
     </section>
 
@@ -350,6 +385,116 @@
             learn more
           </button>
         </div>
+      </div>
+    </section>
+
+    <!-- Stay Connected -->
+    <section class="stay flex flex-col">
+      <h1 class="eb-garamond text-center text-5xl font-light text-[#09266A]">
+        Stay Connected
+      </h1>
+      <p
+        class="mt-4 w-[50px] self-center border-3 border-gray-500 text-center"
+      ></p>
+      <!-- <span class="mx-auto my-10 flex w-12 border-2 border-gray-300">gg</span> -->
+      <div class="mt-10 flex w-full justify-between p-8">
+        <img
+          src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/art-matters-fantine-sq.png?itok=Tgo2d8wN"
+          class="w-[32%]"
+          alt=""
+        />
+        <div class="w-[32%] border-2 bg-[#011F5A] p-6 font-light text-white">
+          <p>
+            Scott Hensley of Penn Medicine says, “The worst thing we can do is
+            be flat-footed and unprepared, because this virus does represent a
+            true pandemic risk.” Faculty members from @PennMedicine and
+            @PennVetSchool are working on a new vaccine for the H5N1 virus. They
+            are studying how the virus is transmitted and assisting the state in
+            testing samples from birds and mammals.
+          </p>
+          <div class="mt-6 flex items-center gap-2">
+            <ion-icon
+              name="logo-twitter"
+              class="rounded-full border-2 bg-[#354B7C] p-2 text-gray-400"
+            ></ion-icon>
+            <p class="text-sm font-extralight">@PENN</p>
+          </div>
+        </div>
+        <img
+          src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/penn_commonsspringsem2025-sq.png?itok=BL8NdBt7"
+          class="w-[32%]"
+          alt=""
+        />
+      </div>
+
+      <div
+        class="mx-auto mt-8 mb-24 flex items-center text-center text-lg text-[#09266A]"
+      >
+        <div
+          class="mx-auto grid grid-cols-3 items-center gap-10 md:grid-cols-6"
+        >
+          <img
+            src="/img/icon-instagram.svg"
+            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+            alt=""
+          />
+
+          <img
+            src="/img/icon-facebook.svg"
+            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+            alt=""
+          />
+          <img
+            src="/img/icon-twitter.svg"
+            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+            alt=""
+          />
+          <img
+            src="/img/icon-flickr.svg"
+            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+            alt=""
+          />
+          <img
+            src="img/icon-youtube.svg"
+            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+            alt=""
+          />
+          <img
+            src="/img/icon-linkedin.svg"
+            class="z-10 h-10 w-12 cursor-pointer rounded-full border-2 border-gray-300 p-2"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Equal Opp -->
+    <section class="mt-11">
+      <div class="bg-[#011F5B] px-12 py-24 text-center text-[#ffffff]">
+        <h1
+          class="eb-garamond text-center text-[28px] leading-[35px] tracking-normal"
+        >
+          Equal Opportunity and Nondiscrimination at Penn
+        </h1>
+        <p class="mt-4 leading-8 font-light">
+          The University of Pennsylvania values diversity and seeks talented
+          students, faculty and staff with diverse backgrounds, experiences, and
+          perspectives. The University of Pennsylvania does not discriminate on
+          the basis of race, color, sex, sexual orientation, gender identity,
+          religion, creed, national or ethnic origin, citizenship status, age,
+          disability, veteran status or any other legally protected class status
+          in the administration of its admissions, financial aid, educational or
+          athletic programs, or other University-administered programs or in its
+          employment practices. Questions or complaints regarding this policy
+          should be directed to the Executive Director of the Office of
+          Affirmative Action and Equal Opportunity Programs, Franklin Building,
+          3451 Walnut Street, Suite 421, Philadelphia, PA 19104-6106; or (215)
+          898-6993 (Voice).
+        </p>
+        <button
+          class="mt-12 rounded-full border-2 border-gray-400 p-6 text-center text-[12px] leading-[15.6px] font-bold tracking-[1.8px] uppercase hover:border-none hover:bg-white hover:text-[#011F5B]"
+        >
+          nondiscrimination statement
+        </button>
       </div>
     </section>
 
