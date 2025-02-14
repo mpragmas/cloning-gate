@@ -239,8 +239,8 @@
       </h1>
       <div class="mt-4 h-[5px] w-[40px] bg-[#9BA5BE]"></div>
 
-      <div class="mt-12 flex w-full justify-between">
-        <div class="relative w-[30%]">
+      <div class="mt-12 flex w-full gap-11 sm:justify-between sm:gap-0">
+        <div class="relative w-[50%] md:w-[30%]">
           <div>
             <img
               src="https://penntoday.upenn.edu/sites/default/files/styles/event_large/public/2022-12/grad-center-locust-walk.jpg?h=56d0ca2e&itok=JXdJNEtf"
@@ -278,7 +278,7 @@
           class="h-[500px] w-[10px] border-r-1 border-gray-400 bg-gradient-to-b"
         ></div>
 
-        <div class="flex w-[30%] gap-4">
+        <div class="flex w-[50%] gap-4 md:w-[30%]">
           <div class="relative border-2 border-transparent bg-[#F3F3F4] p-4">
             <div class="mt-18">
               <p class="text-sm">SPECIAL EVENTS</p>
@@ -314,7 +314,7 @@
         </div>
 
         <div
-          class="relative w-[30%] border-2 border-transparent bg-[#F3F3F4] p-4"
+          class="relative hidden w-[30%] border-2 border-transparent bg-[#F3F3F4] p-4 sm:block"
         >
           <div class="mt-18">
             <p class="text-sm">TALKS</p>
@@ -352,7 +352,7 @@
       </div>
     </div>
     <!-- Support section☑️ -->
-    <section class="flex w-full justify-around bg-white">
+    <section class="flex w-full flex-col justify-around bg-white md:flex-row">
       <div
         class="group my-20 w-full bg-[#f2f2f2] p-3 text-[#011f5b] md:w-[40vw]"
       >
@@ -414,13 +414,15 @@
         class="mt-4 w-[50px] self-center border-3 border-gray-500 text-center"
       ></p>
       <!-- <span class="mx-auto my-10 flex w-12 border-2 border-gray-300">gg</span> -->
-      <div class="mt-10 flex w-full justify-between p-8">
+      <div class="mt-10 flex w-full flex-col justify-between p-8 sm:flex-row">
         <img
           src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/art-matters-fantine-sq.png?itok=Tgo2d8wN"
-          class="w-[32%]"
+          class="w-full sm:w-[50%] md:w-[32%]"
           alt=""
         />
-        <div class="w-[32%] border-2 bg-[#011F5A] p-6 font-light text-white">
+        <div
+          class="w-full border-2 bg-[#011F5A] p-6 font-light text-white sm:w-[50%] md:w-[32%]"
+        >
           <p>
             Scott Hensley of Penn Medicine says, “The worst thing we can do is
             be flat-footed and unprepared, because this virus does represent a
@@ -439,7 +441,7 @@
         </div>
         <img
           src="https://www.upenn.edu/sites/default/files/styles/social_card_1x1/public/2025-02/penn_commonsspringsem2025-sq.png?itok=BL8NdBt7"
-          class="w-[32%]"
+          class="hidden md:block md:w-[32%]"
           alt=""
         />
       </div>
